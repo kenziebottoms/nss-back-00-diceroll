@@ -1,0 +1,26 @@
+{
+  "name": "diceroll",
+  "version": "1.0.0",
+  "description": "Create a program that performs a dice roll. You will need a folder `dice-roll` with at least 5 files to accomplish this task.",
+  "main": "sample.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kenziebottoms/nss-back-00-diceroll.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kenziebottoms/nss-back-00-diceroll/issues"
+  },
+  "homepage": "https://github.com/kenziebottoms/nss-back-00-diceroll#readme",
+  "dependencies": {
+    "nodemon": "^1.17.1"
+  }
+}
