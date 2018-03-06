@@ -1,5 +1,34 @@
 # Modularity
 
+![](https://img.shields.io/badge/modularity-node-green.svg)
+![](https://img.shields.io/badge/mvp-working-green.svg)
+
+### Run Locally
+
+```bash
+git clone git@github.com:kenziebottoms/nss-back-00-diceroll.gite
+cd nss-back-00-diceroll/bin
+./diceroll
+```
+
+### Usage
+
+Roll any number of dice with any number of sides.
+
+```bash
+./diceroll      # rolls one six-sided die
+```
+
+```bash
+./diceroll 20   # rolls one twenty-sided die
+```
+
+```bash
+./diceroll 2 20 # rolls two twenty-sided dice
+```
+
+## Requirements
+
 Create a program that performs a dice roll. You will need a folder `dice-roll` with at least 5 files to accomplish this task.
 
 ### File structure
