@@ -2,6 +2,7 @@
 
 ![](https://img.shields.io/badge/modularity-node-green.svg)
 ![](https://img.shields.io/badge/mvp-working-green.svg)
+![](https://img.shields.io/badge/testing-chai+mocha-a40802.svg)
 
 ### Run Locally
 
