@@ -1,10 +1,13 @@
 const { randomInt } = require("../lib/math");
-const { assert: {isFunction} } = require("chai");
+const { assert } = require("chai");
 
 describe("math module", () => {
     describe("randomInt()", () => {
         it("randomInt should be a function", () => {
-            isFunction(randomInt);
+            assert.isFunction(randomInt);
+        });
+        it("should return a number", () => {
+            assert.isNumber(randomInt(1,6));
         });
     });
 });
