@@ -41,16 +41,15 @@ Create a program that performs a dice roll. You will need a folder `dice-roll` w
 ### File structure
 
 ```
-dice-roll/
-    bin/
-        diceroll
-    lib/
-        cli.js
-        dice.js
-        math.js
-        parse-args.js
-README.md
-package.json
+|-- bin/
+|-- diceroll
+|-- lib/
+|    |-- cli.js
+|    |-- dice.js
+|    |-- math.js
+|    `-- parse-args.js
+|-- README.md
+`-- package.json
 ```
 
 ### Goals
