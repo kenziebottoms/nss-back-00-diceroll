@@ -6,14 +6,6 @@ describe("parse args module", () => {
         let args0 = [false, false];
         let args1 = [false, false, 20];
         let args2 = [false, false, 4, 20];
-        it("should have count and sides properties", () => {
-            assert.property(parseArgs(args0), "sides");
-            assert.property(parseArgs(args0), "count");
-            assert.property(parseArgs(args1), "sides");
-            assert.property(parseArgs(args1), "count");
-            assert.property(parseArgs(args2), "sides");
-            assert.property(parseArgs(args2), "count");
-        });
         it("no args should return 1d6", () => {
             assert.equal(parseArgs(args0).sides, 6);
             assert.equal(parseArgs(args0).count, 1);
