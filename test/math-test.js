@@ -9,5 +9,11 @@ describe("math module", () => {
         it("should return a number", () => {
             assert.isNumber(randomInt(1,6));
         });
+        it("should not be less than the lower bound", () => {
+            assert.isAtLeast(randomInt(1,6), 1);
+        });
+        it("should not exceed the upper bound", () => {
+            assert.isAtMost(randomInt(1,6), 6);
+        });
     });
 });
