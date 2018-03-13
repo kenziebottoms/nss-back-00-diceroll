@@ -9,8 +9,8 @@
 Note: Written on and dependent on Linux infrastructure; may work on Mac OS.
 
 ```bash
-git clone git@github.com:kenziebottoms/nss-back-00-diceroll.gite
-cd nss-back-00-diceroll/bin
+git clone git@github.com:kenziebottoms/nss-back-01-diceroll.git
+cd nss-back-01-diceroll/bin
 ./diceroll
 ```
 If permission is denied, try
